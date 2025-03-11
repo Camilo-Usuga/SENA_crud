@@ -1,12 +1,12 @@
-# My CRUD Application
+# CRUD Application
 
-This is a simple CRUD application built with Node.js and Express, using a MySQL database for data storage.
+This is a CRUD (Create, Read, Update, Delete) application built with Node.js and Express, utilizing a MySQL database for data storage.
 
 ## Features
 
-- Create, Read, Update, and Delete operations for items.
+- Perform Create, Read, Update, and Delete operations for items.
 - RESTful API structure.
-- MySQL database integration.
+- Integration with MySQL database.
 
 ## Prerequisites
 
@@ -17,25 +17,25 @@ This is a simple CRUD application built with Node.js and Express, using a MySQL 
 
 1. Clone the repository:
 
-   ```
+   ```bash
    git clone <repository-url>
    ```
 
 2. Navigate to the project directory:
 
-   ```
-   cd my-crud-app
+   ```bash
+   cd crud_nodejs
    ```
 
 3. Install the dependencies:
 
-   ```
+   ```bash
    npm install
    ```
 
 4. Create a `.env` file in the root directory and add your database configuration:
 
-   ```
+   ```properties
    DB_HOST=your_database_host
    DB_USER=your_database_user
    DB_PASSWORD=your_database_password
@@ -46,7 +46,7 @@ This is a simple CRUD application built with Node.js and Express, using a MySQL 
 
 1. Start the application:
 
-   ```
+   ```bash
    npm start
    ```
 
@@ -62,4 +62,4 @@ This is a simple CRUD application built with Node.js and Express, using a MySQL 
 
 ## License
 
-This project is licensed under the MIT License.# SENA_crud
+This project is licensed under the MIT License.
